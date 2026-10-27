@@ -11,7 +11,6 @@ import argparse
 import sys
 from pathlib import Path
 from typing import List, Optional, Sequence
-
 from extraccion import FuncionExtraida, extraer_funciones_de_codigo, extraer_funciones_de_directorio
 from similitud import METRICAS, N_GRAMA_DEFECTO, UMBRAL_DUPLICADO, buscar_similares
 
