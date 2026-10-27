@@ -1,0 +1,2 @@
+# Solo se necesita pytest para correr los tests. La herramienta usa únicamente la biblioteca estándar (Python >= 3.9).
+pytest>=7.0
