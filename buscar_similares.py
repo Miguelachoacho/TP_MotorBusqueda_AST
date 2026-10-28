@@ -1,10 +1,10 @@
 """Fase 4 - Interfaz de línea de comandos.
 
 Ejemplos:
-    python buscar_similares.py --dir ./mi_repo --funcion archivo.py:mi_funcion --top 5
-    python buscar_similares.py --dir ./mi_repo --funcion modulo.py:Clase.metodo --metrica levenshtein
-    python buscar_similares.py --dir ./mi_repo --codigo "def f(a, b): return a + b"
-    cat mi_funcion.py | python buscar_similares.py --dir ./mi_repo --codigo -
+    py buscar_similares.py --dir ejemplos/repo_demo --funcion ventas.py:calcular_descuento --top 5
+    py buscar_similares.py --dir ejemplos/repo_demo --funcion facturacion.py:validar_operacion --metrica levenshtein
+    py buscar_similares.py --dir ejemplos/repo_demo --codigo "def f(a, b): return a + b"
+    cat mi_funcion.py | py buscar_similares.py --dir ./mi_repo --codigo -
 """
 
 import argparse
